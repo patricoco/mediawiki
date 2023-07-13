@@ -1,0 +1,145 @@
+body{
+    margin: 0%;
+}
+.header_left{
+    text-align:left;
+    width: 55%;
+} 
+.header_right p{
+    text-align: right;
+    font-size: 13px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    text-align: right;
+}
+li{
+  font-size: 13px;
+  
+}
+header{
+    position: relative;
+    display:flex;
+    width:100%;
+    /* 7/12　ここから　リストを下に列挙する */
+   
+}
+main img{
+    width:100%;
+}
+.zeromessage{
+    text-align: center;
+}
+.firstmessage {
+    margin-left: 15%; 
+}
+
+
+.firstmessage h3{
+    text-align: left;
+    font-size: 12px;
+    margin-top: 35px; 
+    margin-bottom: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.thirdpicturemessage{
+    background-image: url(tange.pic/bg_introduction.png);
+    background-size: cover;
+    color: rgb(240, 248, 255);
+    background-position: center;
+    height: 1000px;
+    text-align: center;
+    
+}
+.thirdpicturemessage h1{
+    font-size: 200px;
+    margin-bottom: 0%;
+    opacity: 0.25;
+}
+.thirdpicturemessage h4{
+    font-size: 12px;
+}
+.fourthpicturemessage{
+    background-image: url(tange.pic/bg_dna.png);
+    background-size:cover;
+    color: aliceblue;
+    background-position: center;
+    height:1000px;
+    text-align: center;
+    font-size: 100%;
+    /* font-family: inherit; */
+}
+.fifthmessage{
+    text-align: center;
+}
+
+
+  .sixthpicturemassage{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+  }  
+
+  .one{
+    margin: 20px;
+  }
+  .one h6{
+    font-size: 14px;
+  }
+  /* .seventhpicturemessage{
+    display:flex;
+  } */
+  
+  
+  .pictureone img{
+    display: block;
+    margin:0;
+    width:calc(100% / 6);
+    aspect-ratio: 1 / 1;
+    height:(same-as-width);
+    float:left;
+  }
+  .picturetwo img{
+    display: block;
+    margin:0;
+    width:calc(100% / 6);
+    aspect-ratio: 1 / 1;
+    height:(same-as-width);
+    float:left;
+  }
+  .picture one{
+    float:left;
+  }
+  
+  .pictureone :nth-child(9n + 1){
+    display: block;
+    margin:0;
+    width:calc(100% / 3);
+    aspect-ratio: 1 / 1;
+    height:(same-as-width);
+    float:left;
+  }
+  .picturetwo :nth-child(9n + 1){
+    display: block;
+    margin:0;
+    width:calc(100% / 3);
+    aspect-ratio: 1 / 1;
+    height:(same-as-width);
+    float:right;
+  }
+  
+  .picturetwo{
+    float:right;
+  }
+
+
+  .eightpicturemessage{
+    display: flex;
+
+  }
+.footertwo li{
+   font-size: 30px;
+}
